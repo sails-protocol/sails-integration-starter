@@ -35,7 +35,7 @@ compatible node, or run the reference node locally for development.
 ## Quick start
 
 ```bash
-git clone https://github.com/alan-schramm/sails-integration-starter.git
+git clone https://github.com/sails-protocol/sails-integration-starter.git
 cd sails-integration-starter
 npm ci
 cp .env.example .env
@@ -56,10 +56,10 @@ runs elsewhere.
 ## Running a reference Sails node locally
 
 If you do not already have a node, use a separate checkout of
-[Sails-Protocol](https://github.com/alan-schramm/Sails-Protocol):
+[Sails-Protocol](https://github.com/sails-protocol/Sails-Protocol):
 
 ```bash
-git clone https://github.com/alan-schramm/Sails-Protocol.git
+git clone https://github.com/sails-protocol/Sails-Protocol.git
 cd Sails-Protocol
 npm ci
 npm run db:local:start

@@ -13,7 +13,7 @@ permissions:
   contents: read
 
 env:
-  PROTOCOL_REPOSITORY: alan-schramm/Sails-Protocol
+  PROTOCOL_REPOSITORY: sails-protocol/Sails-Protocol
   PROTOCOL_SOURCE_SHA: deb4537726c4376c7693f0804fbfd7389e322e30
   STARTER_BASE_URL: http://127.0.0.1:3000
   STARTER_SOURCE_SHA: ${{ github.event.pull_request.head.sha || github.sha }}
